@@ -2513,4 +2513,9 @@
     <string name="imei_information_title" msgid="8499085421609752290">"IMEI-Informationen"</string>
     <string name="imei_information_summary" msgid="2074095606556565233">"Informationen zur relativen IMEI"</string>
     <string name="slot_number" msgid="3762676044904653577">"(Slot <xliff:g id="SLOT_NUM">%1$d</xliff:g>)"</string>
+    <string name="lcd_density" msgid="">"LCD Pixeldichte"</string>
+    <string name="lcd_density_summary" msgid="">%d DPI</string>
+    <string name="lcd_density_default" msgid="">"Gerätestandard"</string>
+    <string name="lcd_density_unsupported" msgid="">"Nicht unterstützt"</string>
+    <string name="restarting_ui" msgid="">"Neustart...</string>
 </resources>
