@@ -2663,6 +2663,48 @@
     <string name="clock_date_style_uppercase" msgid="">"Großgeschrieben"</string>
     <string name="clock_date_format_custom" msgid="">"Benutzedefiniertes Java Format"</string>
     <string name="status_bar_clock_style_reset_message" msgid="">"Farbe der Uhr zurücksetzen?"</string>
+    <string name="title_quick_pulldown">"Schnelles öffnen der Schnelleinstellungen"</string>
+    <string name="summary_quick_pulldown">"%1$s die Benachrichtigungsleiste herunterziehen öffnet die Schnelleinstellungen"</string>
+    <string name="quick_pulldown_off">"Aus"</string>
+    <string name="quick_pulldown_left">"Links"</string>
+    <string name="quick_pulldown_right">"Rechts"</string>
+    <string name="volbtn_music_controls_title">"Lautstärketasten Musikkontrolle"</string>
+    <string name="volbtn_music_controls_summary">"Wenn das Display aus ist, kann mit langem drücken einer der Lautstärketasten der Titel gewechselt werden."</string>
+    <string name="volume_button_toggle_info">"Das "Aufwecken mit den Lautstärketasten" muss deaktiviert werden!"</string>
+    <string name="status_bar_notif_count_title">"Zeige Anzahl der Benachrichtigungen"</string>
+    <string name="status_bar_notif_count_summary">"Zeigt die Anzahl der ausstehenden Benachrichtigungen an"</string>
+    <string name="unlock_quick_unlock_control_title">"Schnelles entsperren"</string>
+    <string name="unlock_quick_unlock_control_summary">"Entsperrt das Gerät automatisch, wenn die korrekte PIN/das korrekte Passwort eingegeben wurde."</string>
+    <string name="unlock_scramble_pin_layout_title">"Anordnung durchmischen"</string>
+    <string name="unlock_scramble_pin_layout_summary">"PIN-Tastenfeld zum entsperren durchmischen"</string>
+    <string name="app_notification_show_on_keyguard_title">"Anzeige auf dem Sperrbildschirm"</string>
+    <string name="app_notification_show_on_keyguard_summary">"Zeige Benachrichtigungen dieser Anwendung auf dem Sperrbildschirm"</string>
+    <string name="app_notification_no_ongoing_on_keyguard_title">"Deaktiviere dauerhafte Benachrichtigungen auf dem Sperrbildschirm"</string>
+    <string name="app_notification_no_ongoing_on_keyguard_summary">"Zeige niemals dauerhafte Benachrichtigungen dieser Anwendung auf dem Sperrbildschirm"</string>
+    <string name="app_security_title">"Anwendungssicherheit"</string>
+    <string name="blacklist_title">"Rufnummernblockierung"</string>
+    <string name="blacklist_edit_dialog_title">"Einträge der Rufnummernblockierung bearbeiten"</string>
+    <string name="blacklist_prefs">"Einstellungen"</string>
+    <string name="blacklist_button_delete">"Löschen"</string>
+    <string name="blacklist_empty_text">"Du hast bisher keine Rufnummern blockiert. Füge Nummern durch das berühren der (+) Schaltfläche hinzu."</string>
+    <string name="blacklist_disabled_empty_text">"Zum blockieren von Anrufen/Nachrichten von einigen Rufnummern, aktiviere die Rufnummernblockierung."</string>
+    <string name="blacklist_summary_disabled">"Deaktiviert"</string>
+    <string name="blacklist_summary">"Eingehende Anrufe und Nachrichten von Rufnummern in der Liste werden blockiert!"</string>
+    <string name="blacklist_notify">"Zeige Benachrichtigungen"</string>
+    <string name="blacklist_private_numbers_title">"Unterdrückte Nummern"</string>
+    <string name="blacklist_private_numbers_summary_disabled">"Blockiere keine Anrufe von unterdrückten Rufnummern"</string>
+    <string name="blacklist_private_numbers_summary">"Blockiere eingehende <xliff:g id="type">%s</xliff:g> von unterdrückten Nummern"</string>
+    <string name="blacklist_unknown_numbers_title">"Nicht gespeicherte Nummern"</string>
+    <string name="blacklist_unknown_numbers_summary_disabled">"Blockiere keine Anrufe oder Nachrichten, die nicht als Kontakt gespeichert sind"</string>
+    <string name="blacklist_unknown_numbers_summary">"Blockiere eingehende <xliff:g id="type">%s</xliff:g>, die nicht als Kontakt gespeichert sind"</string>
+    <string name="blacklist_summary_type_calls_only">"Anrufe"</string>
+    <string name="blacklist_summary_type_messages_only">"Nachrichten"</string>
+    <string name="blacklist_summary_type_calls_and_messages">"Anrufe und Nachrichten"</string>
+    <string name="blacklist_regex_title">"Platzhalter Nutzen"</string>
+    <string name="blacklist_regex_summary">"Nutze . als Platzhalter und * als Wiederholungszeichen...z.B. 123.* blockiert alle Nummern, die mit 123 beginnen und .*123.* blockiert alle Nummern, die 123 enthalten."</string>
+    <string name="blacklist_policy_block_calls">"Blockiere eingehende Anrufe"</string>
+    <string name="blacklist_policy_block_messages">"Blockiere eingehende Nachrichten"</string>
+    <string name="blacklist_bad_number_add">"Diese Nummer kann nicht hinzugefügt werden, da das Format nicht stimmt!"</string>
     
     
     
