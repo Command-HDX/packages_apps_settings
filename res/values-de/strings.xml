@@ -2513,6 +2513,99 @@
     <string name="imei_information_title" msgid="8499085421609752290">"IMEI-Informationen"</string>
     <string name="imei_information_summary" msgid="2074095606556565233">"Informationen zur relativen IMEI"</string>
     <string name="slot_number" msgid="3762676044904653577">"(Slot <xliff:g id="SLOT_NUM">%1$d</xliff:g>)"</string>
+    <string name="ok_string" msgid="">OK</string>
+    <string name="default_string" msgid="">"Standard"</string>
+    <string name="enabled_string" msgid="">"Aktiviert"</string>
+    <string name="disabled_string" msgid="">"Deaktiviert"</string>
+    <string name="general_string" msgid="">"Generell"</string>
+    <string name="reset_string" msgid="">"Zurücksetzen"</string>
+    <string name="reset" msgid="">"Zurücksetzen"</string>
+    <string name="empty_string" msgid="">"Empty"Leer"</string>
+    <string name="ok" msgid="">"OK"</string>
+    <string name="font_size_sample" msgid="">"Beispiel"</string>
+    <string name="help" msgid="">"Help"Hilfe"</string>
+    <string name="add" msgid="">"Hinzufügen</string>
+    <string name="attention" msgid="">"Attention"Achtung"</string>
+    <string name="enabled" msgid="">"Aktiviert"</string>
+    <string name="default_string" msgid="">"Standard"</string>
+    <string name="choose_app" msgid="">"App wählen"</string>
+    <string name="reset_message" msgid="">"Alle Einträge auf Standard zurücksetzen?"</string>
+    <string name="additional_options_title" msgid="">"Zusatzoptionen"</string>
+    <string name="restart_systemui" msgid="">"Neustart System-UI"</string>
+    <string name="status_bar_battery_style_title" msgid="">"Stil der Akku Anzeige"</string>
+    <string name="status_bar_battery_style_icon_portrait" msgid="">"Akku-Symbol Hochformat"</string>
+    <string name="status_bar_battery_style_icon_landscape" msgid="">"Akku-Symbol Querformat"</string>
+    <string name="status_bar_battery_style_circle" msgid="">"Kreis"</string>
+    <string name="status_bar_battery_style_circle_dotted" msgid="">"Kreis (gestrichelt)"</string>
+    <string name="status_bar_battery_style_text" msgid="">"Text"</string>
+    <string name="status_bar_battery_style_hidden" msgid="">"Versteckt"</string>
+    <string name="status_bar_battery_percentage_title" msgid="">"Prozentanzeig Akku"</string>
+    <string name="status_bar_battery_percentage_default"> msgid="">"Versteckt (Standard)"</string>
+    <string name="status_bar_battery_percentage_text_inside" msgid="">"Innerhalb des Symbols"</string>
+    <string name="status_bar_battery_percentage_text_next" msgid="">"Neben dem Symbol"</string>
+    <string name="volume_rocker_screen_title" msgid="">"Lautstärketaste"</string>
+    <string name="volume_key_cursor_control_title" msgid="">"Lautstärketaste Cursor-Steuerung"</string>
+    <string name="volume_key_cursor_control_off" msgid="">"Deaktiviert"</string>
+    <string name="volume_key_cursor_control_on" msgid="">"Lautstärketaste hoch/runter bewegt den Cursor links/rechts"</string>
+    <string name="volume_key_cursor_control_on_reverse" msgid="">"Lautstärketaste hoch/runter bewegt den Cursor links/rechts"</string>
+    <string name="kill_app_longpress_back" msgid="">"Anwendung beenden mit "Zurück Taste""</string>
+    <string name="kill_app_longpress_back_settings" msgid="">"Anwendung beenden mit "Zurück Taste" Einstellungen"</string>
+    <string name="kill_app_longpress_back_summary" msgid="">"Beendet die geöffnete Anwendung mit dem langen gedrückt halten der "Zurück Taste""</string>
+    <string name="long_press_kill_delay" msgid="">"Verzögerung zum beenden"</string>
+    <string name="network_traffic_title" msgid="">"Datenverkehr"</string>
+    <string name="show_network_traffic_state" msgid="">"Anzeige des Datenverkehrs in Benachrichtigungsleiste"</string>
+    <string name="network_traffic_summary" msgid="">"Aktiviert die Anzeige des Datenverkehrs in der Benachrichtigungsleiste"</string>
+    <string name="show_network_traffic_unit" msgid="">"Angezeigte Einheit"</string>
+    <string name="show_network_traffic_frequency" msgid="">"Aktualisierungsintervall"</string>
+    <string name="show_network_traffic_disable" msgid="">"Deaktiviert"</string>
+    <string name="show_network_traffic_up" msgid="">"Ausgehend"</string>
+    <string name="show_network_traffic_down" msgid="">"Eingehend"</string>
+    <string name="show_network_traffic_all" msgid="">"Aus- und Eingehend"</string>
+    <string name="show_network_traffic_bit" msgid="">"Bits pro Sekunde"</string>
+    <string name="show_network_traffic_byte" msgid="">"Bytes pro Sekunde"</string>
+    <string name="show_network_traffic_500" msgid="">"500 ms"</string>
+    <string name="show_network_traffic_1000" msgid="">"1000 ms"</string>
+    <string name="show_network_traffic_1500" msgid="">"1500 ms"</string>
+    <string name="show_network_traffic_2000" msgid="">"2000 ms"</string>
+    <string name="network_traffic_autohide" msgid="">"Automatisch ausblenden"</string>
+    <string name="network_traffic_autohide_summary" msgid="">"Blendet die Anzeige aus, wenn kein Datenverkehr besteht"</string>
+    <string name="network_traffic_autohide_threshold" msgid="">"Schwelle für das ausblenden"</string>
+    <string name="network_traffic_color_style" msgid="">"Farbe"</string>
+    <string name="network_traffic_color_reset" msgid="">"Farbe zurücksetzen"</string>
+    <string name="network_traffic_color_reset_message" msgid="">"Zurücksetzen der Farbe auf Standard?"</string>
+    <string name="recents_panel_settings" msgid="">""Zuletzt geöffnete Anwendungen" Einstellungen"</string>
+    <string name="show_clear_all_recents_button_title" msgid="">""Alle löschen" Schaltfläche"</string>
+    <string name="show_clear_all_recents_button_summary" msgid="">"Anzeige der "Alle löschen" Schaltfläche in den "Zuletzt geöffnete Anwendungen""</string>
+    <string name="recents_clear_all_location_title" msgid="">"Position der Schaltfläche"</string>
+    <string name="recents_clear_all_location_top_right" msgid="">"Oben rechts"</string>
+    <string name="recents_clear_all_location_top_center" msgid="">"Oben mittig"</string>
+    <string name="recents_clear_all_location_top_left" msgid="">"Oben links"</string>
+    <string name="recents_clear_all_location_bottom_right" msgid="">"Unten rechts"</string>
+    <string name="recents_clear_all_location_bottom_center" msgid="">"Unten mittig"</string>
+    <string name="recents_clear_all_location_bottom_left" msgid="">"Unten links"</string>
+    <string name="ui_customization_title" msgid="">"UI Anpassung"</string>
+    <string name="animation_scale_settings" msgid="">"Einstellungen für Animationsgeschwindigkeit"</string>
+    <string name="window_animation_scale_title" msgid="">"Geschwindigkeit Fensteranimation"</string>
+    <string name="transition_animation_scale_title" msgid="">"Geschwindigkeit Übergangsanimation"</string>
+    <string name="animator_duration_scale_title" msgid="">"Geschwindigkeit der Animationszeit"</string>
+    <string name="dialog_color_picker" msgid="">"Farbwahl"</string>
+    <string name="press_color_to_apply" msgid="">"Drücke auf die Farbe unten zum übernehmen"</string>
+    <string name="set" msgid="">"Übernehmen"</string>
+    <string name="color_default" msgid="">"Standard"</string>
+    <string name="display_rotation_title" msgid="">"Display automatisch drehen"</string>
+    <string name="display_rotation_disabled" msgid="">"Deaktiviert"</string>
+    <string name="display_rotation_unit" msgid="">"Grad"</string>
+    <string name="display_rotation_category_title" msgid="">"Einstellungen"</string>
+    <string name="display_rotation_0_title" msgid="">"0 Grad"</string>
+    <string name="display_rotation_90_title" msgid="">"90 Grad"</string>
+    <string name="display_rotation_180_title" msgid="">"180 Grad"</string>
+    <string name="display_rotation_270_title" msgid="">"270 Grad"</string>
+    <string name="advanced_sound_title" msgid="">"Erweitert Optionen"</string>
+    <string name="sound_title" msgid="">"Ton"</string>
+    
+    
+    
+    
     <string name="lcd_density" msgid="">"LCD Pixeldichte"</string>
     <string name="lcd_density_summary" msgid="">%d DPI</string>
     <string name="lcd_density_default" msgid="">"Gerätestandard"</string>
