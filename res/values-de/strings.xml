@@ -2602,6 +2602,67 @@
     <string name="display_rotation_270_title" msgid="">"270 Grad"</string>
     <string name="advanced_sound_title" msgid="">"Erweitert Optionen"</string>
     <string name="sound_title" msgid="">"Ton"</string>
+    <string name="safe_headset_volume_title" msgid="">"Headset Lautstärke speichern"</string>
+    <string name="safe_headset_volume_summary" msgid="">"Schutz vor zu hoher Lautstärke, wenn das Headset das erste mal benutzt wird"</string>
+    <string name="safe_headset_volume_warning_dialog_text" msgid="">"Musikgenuss mit zu hoher Lautstärke kann langfristig zu Hörschäden führen. Sei Dir bei der Deaktivierung darüber bewusst."</string>
+    <string name="volume_keys_control_media_stream" msgid="">"Einstellungen zur Medienlautstärke"</string>
+    <string name="volume_keys_control_media_stream_summary" msgid="">"Die Lautstärketasten steuern die Medienlautstärke bevorzugt vor der Benachrichtigungslautstärke"</string>
+    <string name="display_category_wakeup_options_title" msgid="">"Aufwach Optionen"</string>
+    <string name="pref_volume_wake_title" msgid="">"Wecken mit Lautstärketasten"</string>
+    <string name="pref_volume_wake_summary" msgid="">"Betätigung der Lautstärketasten bei ausgeschalteten Display soll dieses einschalten"</string>
+    <string name="wakeup_when_plugged_unplugged_title" msgid="">"Display einschalten beim laden"</string>
+    <string name="wakeup_when_plugged_unplugged_summary" msgid="">"Display einschalten, wenn das Ladegerät an-/abgesteckt wird."</string>
+    <string name="volume_key_adjust_sound_title" msgid="">"Lautstärketasten Änderungston"</string>
+    <string name="volume_key_adjust_sound_summary" msgid="">"Ein Ton wird wiedergegeben, wenn die Lautstärke mit den Lautstärketasten geändert wird."</string>
+    <string name="status_bar_double_tap_to_sleep_title" msgid="">"Doppelt tippen zum "schlafen""</string>
+    <string name="status_bar_double_tap_to_sleep_summary" msgid="">"Aktiviert oder deaktiviert die "doppelt antippen zum schlafen" Funktion über die Benachrichtigungsleiste."/string>
+    <string name="status_bar_general_category" msgid="">"Generell"</string>
+    <string name="status_bar_title" msgid="">"Benachrichtigungsleiste"</string>
+    <string name="status_bar_quick_qs_pulldown_title" msgid="">Schnelles öffnen der Schnelleinstellungen</string>
+    <string name="status_bar_quick_qs_pulldown_summary" msgid="">"Macht es möglich, die Schnelleinstellungen mit einem Finger durch das wischen über die Benachrichtigungsleiste (von oben nach unten) zu öffnen."</string>
+    <string name="status_bar_toggle_brightness" msgid="">"Helligkeitseinstellung"</string>
+    <string name="status_bar_toggle_brightness_summary" msgid="">"Verändert die Helligkeit durch das wischen (links <> rechts) über die Benachrichtigungsleiste."</string>
+    <string name="status_bar_toggle_info" msgid="">"Automatische Helligkeit muss deaktiviert sein!"</string>
+    <string name="profile_reset_title" msgid="">"Zurücksetzen"</string>
+    <string name="profiles_add" msgid="">"Hinzufügen"</string>
+    <string name="profile_choose_app" msgid="">"Anwendung wählen"</string>
+    <string name="profile_applist_title" msgid="">"Anwendungen"</string>
+    <string name="picker_activities" msgid="">"Aktivitäten"</string>
+    <string name="select_custom_app_title" msgid="">"Benutzerdefinierte Anwendung wählen"</string>
+    <string name="select_custom_activity_title" msgid="">"Benutzerdefinierte Aktivität wählen"</string>
+    <string name="status_bar_clock" msgid="">"Datum &amp; Uhrzeit"</string>
+    <string name="status_bar_clock_title" msgid="">"Datum &amp; Uhrzeit Stil"</string>
+    <string name="status_bar_clock_summary" msgid="">"Ändert verschiedene Datum &amp; Uhrzeit Einstellungen"</string> 
+    <string name="clock_title_enable" msgid="">"Ausrichtung"</string>
+    <string name="clock_enabled" msgid="">"Aktiviert"</string>
+    <string name="clock_disabled" msgid="">"Deaktiviert"</string>
+    <string name="clock_color_title" msgid="">"Farbe"</string>
+    <string name="status_bar_clock_style_reset" msgid="">"Farbe zurücksetzen"</string>
+    <string name="status_bar_show_clock_title" msgid="">"Datum und Uhrzeit anzeigen"</string>
+    <string name="status_bar_am_pm_title" msgid="">"AM/PM"</string>
+    <string name="status_bar_am_pm_info" msgid="">"24h Format ist aktiviert"</string>
+    <string name="enable_clock_weekday" msgid="">"Wochentag"</string>
+    <string name="enable_clock_weekday_summary" msgid="">"Der Wochentag wird abgekürzt vor der Uhrzeit angezeigt"</string>
+    <string name="right_clock" msgid="">"Uhrzeit rechts"</string>
+    <string name="center_clock" msgid="">"Uhrzeit mittig"</string>
+    <string name="dont_show" msgid="">"Nicht anzeigen"</string>
+    <string name="clock_date_display" msgid="">"Datum"</string>
+    <string name="clock_date_display_summary" msgid="">"Anzeige eines benutzerdefinierten Datums vor der Uhrzeit"</string>
+    <string name="clock_date_style" msgid="">"Stil Datumsanzeige"</string>
+    <string name="clock_date_format" msgid="">"Datumsformat"</string>
+    <string name="clock_date_string_edittext_title" msgid="">"Format beachten z.B. MM/tt/jj"</string>
+    <string name="clock_date_string_edittext_summary" msgid="">"Zeichenfolge eingeben"</string>
+    <string name="am_pm_clock_normal" msgid="">"Normale Schriftgröße"</string>
+    <string name="am_pm_clock_small" msgid="">"Kleine Schriftgröße"</string>
+    <string name="am_pm_clock_none" msgid="">"Nicht anzeigen"</string>
+    <string name="clock_date_display_none" msgid="">"Nicht anzeigen"</string>
+    <string name="clock_date_display_small" msgid="">"Kleine Schriftgröße"</string>
+    <string name="clock_date_display_normal" msgid="">"Normale Schriftgröße"</string>
+    <string name="clock_date_style_normal" msgid="">"Normal"</string>
+    <string name="clock_date_style_lowercase" msgid="">"Kleingeschrieben"</string>
+    <string name="clock_date_style_uppercase" msgid="">"Großgeschrieben"</string>
+    <string name="clock_date_format_custom" msgid="">"Benutzedefiniertes Java Format"</string>
+    <string name="status_bar_clock_style_reset_message" msgid="">"Farbe der Uhr zurücksetzen?"</string>
     
     
     
