@@ -2719,7 +2719,35 @@
     <string name="notification_drawer_title" msgid="">"Benachrichtigungsleiste"</string>
     <string name="qs_category_title" msgid="">"Schnelleinstellungen"</string>
     <string name="qs_order_title" msgid="">"Anordnung und Auswahl der Felder"</string>
-    <string name="add_qs" msgid="">"Wähle ein neues Feld"</string>  
+    <string name="add_qs" msgid="">"Wähle ein neues Feld"</string>
+    <string name="qs_action_delete" msgid="">"Löschen"</string>
+    <string name="qs_action_add" msgid="">"Hinzufügen"</string>
+    <string name="qs_action_no_more_tiles" msgid="">"Keine weiteren Felder verfügbar"</string>
+    <string name="qs_main_tiles_title" msgid="">"Vergrößere erste Reihe"</string>
+    <string name="qs_main_tiles_summary_on" msgid="">"Zwei große Felder in der ersten Reihe"</string>
+    <string name="qs_main_tiles_summary_off" msgid="">"Drei Felder in jeder Reihe"</string>
+    <string name="qs_advanced_location_title" msgid="">"Erweiterte Standort-Schnelleinstellung"</string>
+    <string name="qs_advanced_location_summary" msgid="">"Aktiviert die erweiteten Einstellungen für den Standort in den Schnelleinstellungen"</string>
+    <string name="qs_tile_wifi" msgid="">"Wi\u2011Fi"</string>
+    <string name="qs_tile_bluetooth" msgid="">"Bluetooth"</string>
+    <string name="qs_tile_display_inversion" msgid="">"Farben umkehren"</string>
+    <string name="qs_tile_cellular_data" msgid="">"Mobile Daten"</string>
+    <string name="qs_tile_airplane_mode" msgid="">"Flugzeugmodus"</string>
+    <string name="qs_tile_display_rotation" msgid="">"Display automatisch drehen"</string>
+    <string name="qs_tile_flashlight" msgid="">"Taschenlampe"</string>
+    <string name="qs_tile_location" msgid="">"Standort"</string>
+    <string name="qs_tile_cast_screen" msgid="">"Bildschirmübertragung"</string>
+    <string name="qs_tile_hotspot" msgid="">"Hotspot"</string>
+    <string name="qs_tile_notifications" msgid="">"Benachrichtigungen"</string>
+    <string name="qs_tile_nfc" msgid="">"NFC"</string>
+    <string name="qs_tile_compass" msgid="">"Kompass"</string>
+    <string name="qs_tile_screen_timeout" msgid="">"Ausschaltzeit Display"</string>
+    <string name="qs_tile_lte" msgid="">"LTE"</string>  
+    <string name="qs_expanded_desktop_tile" msgid="">"Vollbildschirm"</string>
+    <string name="qs_screen_off_tile" msgid="">"Display ausschalten"</string>  
+    <string name="qs_sync_tile" msgid="">"Synchronisation"</string>
+    <string name="qs_screenshot_tile" msgid="">"Screenshot"</string>
+    <string name="qs_tile_usb_tether" msgid="">"USB tethering"</string>
     
     
     
