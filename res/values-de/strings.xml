@@ -2545,14 +2545,14 @@
     <string name="volume_key_cursor_control_title" msgid="">"Lautstärketaste Cursor-Steuerung"</string>
     <string name="volume_key_cursor_control_off" msgid="">"Deaktiviert"</string>
     <string name="volume_key_cursor_control_on" msgid="">"Lautstärketaste hoch/runter bewegt den Cursor links/rechts"</string>
-    <string name="volume_key_cursor_control_on_reverse" msgid="">"Lautstärketaste hoch/runter bewegt den Cursor links/rechts"</string>
+    <string name="volume_key_cursor_control_on_reverse" msgid="">"Lautstärketaste hoch/runter bewegt den Cursor rechts/links"</string>
     <string name="kill_app_longpress_back" msgid="">"Anwendung beenden mit "Zurück Taste""</string>
     <string name="kill_app_longpress_back_settings" msgid="">"Anwendung beenden mit "Zurück Taste" Einstellungen"</string>
     <string name="kill_app_longpress_back_summary" msgid="">"Beendet die geöffnete Anwendung mit dem langen gedrückt halten der "Zurück Taste""</string>
     <string name="long_press_kill_delay" msgid="">"Verzögerung zum beenden"</string>
     <string name="network_traffic_title" msgid="">"Datenverkehr"</string>
-    <string name="show_network_traffic_state" msgid="">"Anzeige des Datenverkehrs in Benachrichtigungsleiste"</string>
-    <string name="network_traffic_summary" msgid="">"Aktiviert die Anzeige des Datenverkehrs in der Benachrichtigungsleiste"</string>
+    <string name="show_network_traffic_state" msgid="">"Datenverkehrs in Statusleiste"</string>
+    <string name="network_traffic_summary" msgid="">"Aktiviert die Anzeige des Datenverkehrs in der Statusleiste"</string>
     <string name="show_network_traffic_unit" msgid="">"Angezeigte Einheit"</string>
     <string name="show_network_traffic_frequency" msgid="">"Aktualisierungsintervall"</string>
     <string name="show_network_traffic_disable" msgid="">"Deaktiviert"</string>
@@ -2613,13 +2613,13 @@
     <string name="volume_key_adjust_sound_title" msgid="">"Lautstärketasten Änderungston"</string>
     <string name="volume_key_adjust_sound_summary" msgid="">"Ein Ton wird wiedergegeben, wenn die Lautstärke mit den Lautstärketasten geändert wird."</string>
     <string name="status_bar_double_tap_to_sleep_title" msgid="">"Doppelt tippen zum "schlafen""</string>
-    <string name="status_bar_double_tap_to_sleep_summary" msgid="">"Aktiviert oder deaktiviert die "doppelt antippen zum schlafen" Funktion über die Benachrichtigungsleiste."/string>
+    <string name="status_bar_double_tap_to_sleep_summary" msgid="">"Aktiviert oder deaktiviert die "doppelt antippen zum schlafen" Funktion über die Statusleiste."/string>
     <string name="status_bar_general_category" msgid="">"Generell"</string>
-    <string name="status_bar_title" msgid="">"Benachrichtigungsleiste"</string>
+    <string name="status_bar_title" msgid="">"Statusleiste"</string>
     <string name="status_bar_quick_qs_pulldown_title" msgid="">Schnelles öffnen der Schnelleinstellungen</string>
-    <string name="status_bar_quick_qs_pulldown_summary" msgid="">"Macht es möglich, die Schnelleinstellungen mit einem Finger durch das wischen über die Benachrichtigungsleiste (von oben nach unten) zu öffnen."</string>
+    <string name="status_bar_quick_qs_pulldown_summary" msgid="">"Ermöglicht es, die Schnelleinstellungen mit einem Finger durch das herunterziehen der Statusleiste zu öffnen."</string>
     <string name="status_bar_toggle_brightness" msgid="">"Helligkeitseinstellung"</string>
-    <string name="status_bar_toggle_brightness_summary" msgid="">"Verändert die Helligkeit durch das wischen (links <> rechts) über die Benachrichtigungsleiste."</string>
+    <string name="status_bar_toggle_brightness_summary" msgid="">"Verändert die Helligkeit durch das wischen (links <> rechts) über die Statusleiste."</string>
     <string name="status_bar_toggle_info" msgid="">"Automatische Helligkeit muss deaktiviert sein!"</string>
     <string name="profile_reset_title" msgid="">"Zurücksetzen"</string>
     <string name="profiles_add" msgid="">"Hinzufügen"</string>
@@ -2688,17 +2688,17 @@
     <string name="blacklist_disabled_empty_text" msgid="">"Zum blockieren von Anrufen/Nachrichten von einigen Rufnummern, aktiviere die Rufnummernblockierung."</string>
     <string name="blacklist_summary_disabled" msgid="">"Deaktiviert"</string>
     <string name="blacklist_summary" msgid="">"Eingehende Anrufe und Nachrichten von Rufnummern in der Liste werden blockiert!"</string>
-    <string name="blacklist_notify" msgid="">"Zeige Benachrichtigungen"</string>
-    <string name="blacklist_private_numbers_title" msgid="">"Unterdrückte Nummern"</string>
+    <string name="blacklist_notify" msgid="">"Zeige Benachrichtigungen an"</string>
+    <string name="blacklist_private_numbers_title" msgid="">"Unterdrückte Rufnummern"</string>
     <string name="blacklist_private_numbers_summary_disabled" msgid="">"Blockiere keine Anrufe von unterdrückten Rufnummern"</string>
     <string name="blacklist_private_numbers_summary" msgid="">"Blockiere eingehende <xliff:g id="type">%s</xliff:g> von unterdrückten Nummern"</string>
     <string name="blacklist_unknown_numbers_title" msgid="">"Nicht gespeicherte Nummern"</string>
-    <string name="blacklist_unknown_numbers_summary_disabled" msgid="">"Blockiere keine Anrufe oder Nachrichten, die nicht als Kontakt gespeichert sind"</string>
+    <string name="blacklist_unknown_numbers_summary_disabled" msgid="">"Blockiere keine Anrufe oder Nachrichten von Rufnummern, die nicht als Kontakt gespeichert sind"</string>
     <string name="blacklist_unknown_numbers_summary" msgid="">"Blockiere eingehende <xliff:g id="type">%s</xliff:g>, die nicht als Kontakt gespeichert sind"</string>
     <string name="blacklist_summary_type_calls_only" msgid="">"Anrufe"</string>
     <string name="blacklist_summary_type_messages_only" msgid="">"Nachrichten"</string>
     <string name="blacklist_summary_type_calls_and_messages" msgid="">"Anrufe und Nachrichten"</string>
-    <string name="blacklist_regex_title" msgid="">"Platzhalter Nutzen"</string>
+    <string name="blacklist_regex_title" msgid="">"Platzhalter nutzen"</string>
     <string name="blacklist_regex_summary" msgid="">"Nutze . als Platzhalter und * als Wiederholungszeichen...z.B. 123.* blockiert alle Nummern, die mit 123 beginnen und .*123.* blockiert alle Nummern, die 123 enthalten."</string>
     <string name="blacklist_policy_block_calls" msgid="">"Blockiere eingehende Anrufe"</string>
     <string name="blacklist_policy_block_messages" msgid="">"Blockiere eingehende Nachrichten"</string>
@@ -2764,7 +2764,161 @@
     <string name="privacy_guard_app_ops_detail_dialog_text" msgid="">"Die gewählte Anwendung verfügt über keine Berechtigung, die auf Deine persönlichen Daten zugreift. Willst Du die anderen Berechtigungen ändern?"</string>
     <string name="privacy_guard_app_ops_detail_reset_dialog_text" msgid="">"Alle Berechtigungen auf Standard zurücksetzen?"</string>
     <string name="app_ops_btn_text" msgid="">"Ändern"</string>
-    <string name="app_ops_no_item_text" msgid="">"Diese Anwendung verfügt über keine änderbaren Berechtigungen"</string>    
+    <string name="app_ops_no_item_text" msgid="">"Diese Anwendung verfügt über keine änderbaren Berechtigungen"</string>
+    <string name="appops_manager_title" msgid="">"Appops"</string>
+    <string name="appops_manager_summary" msgid="">"Individuelle Einstellung aller Anwendungsberechtigungen"</string>
+    <string name="quick_settings_vibrate_title" msgid="">"Bei Berührung vibrieren"</string>
+    <string name="quick_settings_vibrate_summary" msgid="">"Vibrieren beim Berühren eines Feldes"</string>
+    <string name="qs_brightness_slider_title" msgid="">"Helligkeitsregler anzeigen"</string>
+    <string name="qs_brightness_slider_summary" msgid="">"Zeigt den Helligkeitsregler in den Schnelleinstellungen an"</string>
+    <string name="edit_light_settings" msgid="">"LED Einstellungen ändern"</string>
+    <string name="pulse_speed_title" msgid="">"Leuchtdauer und Wiederholrate"</string>
+    <string name="default_time" msgid="">"Normal"</string>
+    <string name="custom_time" msgid="">"Benutzdefiniert"</string>
+    <string name="dialog_delete_title" msgid="">"Löschen"</string>
+    <string name="dialog_delete_message" msgid="">"Gewählten Eintrag löschen?"</string>
+    <string name="pulse_length_always_on" msgid="">"Immer an"</string>
+    <string name="pulse_length_very_short" msgid="">"Sehr kurz"</string>
+    <string name="pulse_length_short" msgid="">"Kurz"</string>
+    <string name="pulse_length_normal" msgid="">"Normal"</string>
+    <string name="pulse_length_long" msgid="">"Lang"</string>
+    <string name="pulse_length_very_long" msgid="">"Sehr lang"</string>
+    <string name="pulse_speed_very_fast" msgid="">"Sehr schnell"</string>
+    <string name="pulse_speed_fast" msgid="">"Schnell"</string>
+    <string name="pulse_speed_normal" msgid="">"Normal"</string>
+    <string name="pulse_speed_slow" msgid="">"Langsam"</string>
+    <string name="pulse_speed_very_slow" msgid="">"Sehr langsam"</string>
+    <string name="battery_light_title" msgid="">Akku-LED</string>
+    <string name="battery_low_pulse_title" msgid="">"Blinken, wenn der Akku fast leer ist"</string>
+    <string name="battery_light_list_title" msgid="">"Farben"</string>
+    <string name="battery_light_low_color_title" msgid="">"Akku fast leer"</string>
+    <string name="battery_light_medium_color_title" msgid="">"Ladevorgang"</string>
+    <string name="battery_light_full_color_title" msgid="">"Vollständig geladen"</string>
+    <string name="notification_light_title" msgid="">"Benachrichtigungs-LED"</string>
+    <string name="notification_light_general_title" msgid="">"Generell"</string>
+    <string name="notification_light_applist_title" msgid="">"Anwendungen"</string>
+    <string name="notification_light_phonelist_title" msgid="">"Telefon"</string>
+    <string name="notification_light_use_custom" msgid="">"Eigene Werte nutzen"</string>
+    <string name="notification_light_default_value" msgid="">"Standard"</string>
+    <string name="notification_light_missed_call_title" msgid="">"Verpasste Anrufe"</string>
+    <string name="notification_light_voicemail_title" msgid="">"Mailbox"</string>
+    <string name="lockscreen_settings_title" msgid="">"Sperrbildschirm"</string>
+    <string name="lockscreen_targets_message" msgid="">"Sperrbildschirm Verknüpfungen"</string>
+    <string name="lockscreen_default_target" msgid="">"Standard"</string>
+    <string name="lockscreen_none_target" msgid="">"Keine"</string>
+    <string name="lockscreen_message" msgid="">"Tippe auf das linke oder rechte Symbol, um die Verknüpfung zu ändern oder neu zuzuweisen."</string>
+    <string name="lockscreen_choose_action_title" msgid="">"Aktion wählen"</string>
+    <string name="power_menu_expanded_desktop" msgid="">"Erweiterter Desktop"</string>
+    <string name="expanded_hide_nothing" msgid="">"Nichts ausblenden"</string>
+    <string name="expanded_hide_status" msgid="">"Benachrichtigungsleiste ausblenden"</string>
+    <string name="expanded_hide_navigation" msgid="">"Navigationsleiste ausblenden"</string>
+    <string name="expanded_hide_both" msgid="">"Beide Leisten ausblenden"</string>
+    <string name="expanded_nothing_to_show" msgid="">"Zum hinzufügen einer anwendungsspezifischen Konfiguration, muss \'Aktiviert für alle\' auf Aus stehen."</string>
+    <string name="expanded_desktop_state" msgid="">"Erweiterter Desktop Status"</string>
+    <string name="expanded_enabled_for_all" msgid="">"Aktiviert für alle"</string>
+    <string name="expanded_user_configurable" msgid="">"Einstellbar vom Benutzer"</string>
+    <string name="expanded_desktop_style" msgid="">"Stil des erweiterten Desktops"</string>
+    <string name="expanded_desktop_style_description" msgid="">"Wähle einen vorgegebenen Stil"</string>
+    <string name="expanded_desktop_title" msgid="">"Erweiterter Desktop Optionen"/string>
+    <string name="show_enter_key_title" msgid="">"Eingabetaste anzeigen"</string>
+    <string name="show_enter_key_summary" msgid="">"Die Tastatur wird vorrangig die Eingabetaste anstatt der Emoticon Taste anzeigen."</string>
+    <string name="ime_switcher_notify" msgid="">"Auswahlbenachrichtigung"</string>
+    <string name="ime_switcher_notify_summary" msgid="">"Zeigt eine Benachrichtigung an, wenn zwischen mehreren Eingabemöglichkeiten gewählt werden kann."</string>
+    <string name="interruptions_ignore_while_media_title" msgid="">"Musikunterbrechung verhindern"</string>
+    <string name="interruptions_ignore_while_media_summary" msgid="">"Die Musik-Wiedergabelautstärke wird nicht reduziert, wenn eine Benachrichtigung eintrifft."</string>
+    <string name="screen_recorder_title" msgid="">"Bildschirmaufnahme"</string>
+    <string name="screen_recorder_summary" msgid="">"Einstellungen für die Bildschirmaufnahme festlegen"</string>
+    <string name="screen_recorder_video_dimensions_title" msgid="">"Video Größe"</string>
+    <string name="screen_recorder_video_bitrate_title" msgid="">"Bitrate"</string>
+    <string name="power_menu_screenrecord_title" msgid="">"Bildschirmaufnahme"</string>
+    <string name="screen_recorder_power_menu_summary" msgid="">"Fügt einen Eintrag für die Bildschirmaufnahme zum Powermenü hinzu."</string>
+    <string name="screen_recorder_size_240x400" msgid="">"240x400"</string>
+    <string name="screen_recorder_size_360x640" msgid="">"360x640"</string>
+    <string name="screen_recorder_size_480x800" msgid="">"480x800"</string>
+    <string name="screen_recorder_size_480x854" msgid="">"480x854"</string>
+    <string name="screen_recorder_size_540x960" msgid="">"540x960"</string>
+    <string name="screen_recorder_size_600x1024" msgid="">"600x1024"</string>
+    <string name="screen_recorder_size_720x1280" msgid="">"720x1280"</string>
+    <string name="screen_recorder_bitrate_title_100000" msgid="">"100 kB/s"</string>
+    <string name="screen_recorder_bitrate_title_250000" msgid="">"250 kB/s"</string>
+    <string name="screen_recorder_bitrate_title_500000" msgid="">"500 kB/s"</string>
+    <string name="screen_recorder_bitrate_title_1000000" msgid="">"1 MB/s"</string>
+    <string name="screen_recorder_bitrate_title_2000000" msgid="">"2 MB/s"</string>
+    <string name="screen_recorder_bitrate_title_3000000" msgid="">"3 MB/s"</string>
+    <string name="screen_recorder_bitrate_title_4000000" msgid="">"4 MB/s"</string>
+    <string name="screen_recorder_bitrate_title_5000000" msgid="">"5 MB/s"</string>
+    <string name="screen_recorder_bitrate_title_10000000" msgid="">"10 MB/s"</string>
+    <string name="screen_recorder_bitrate_title_20000000" msgid="">"20 MB/s"</string>
+    <string name="screen_recorder_bitrate_100000" msgid="">"100000"</string>
+    <string name="screen_recorder_bitrate_250000" msgid="">"250000"</string>
+    <string name="screen_recorder_bitrate_500000" msgid="">"500000"</string>
+    <string name="screen_recorder_bitrate_1000000" msgid="">"1000000"</string>
+    <string name="screen_recorder_bitrate_2000000" msgid="">"2000000"</string>
+    <string name="screen_recorder_bitrate_3000000" msgid="">"3000000"</string>
+    <string name="screen_recorder_bitrate_4000000" msgid="">"4000000"</string>
+    <string name="screen_recorder_bitrate_5000000" msgid="">"5000000"</string>
+    <string name="screen_recorder_bitrate_10000000" msgid="">"10000000"</string>
+    <string name="screen_recorder_bitrate_20000000" msgid="">"20000000"</string>
+    <string name="screen_recorder_record_audio_title" msgid="">"Mikrofonaufnahme"</string>
+    <string name="screen_recorder_record_audio_summary" msgid="">"Zeichnet die Umgebungsgeräusche über das Mikrofon des Gerätes auf."</string>
+    <string name="power_menu_title" msgid="">"Power Menü"</string>
+    <string name="power_menu_reboot_title" msgid="">"Neustart Menü"</string>
+    <string name="power_menu_screenshot_title" msgid="">"Bildschirmfoto"</string>
+    <string name="power_menu_airplane_title" msgid="">"Flugzeugmodus"</string>
+    <string name="power_menu_users_title" msgid="">"Benutzer wechseln"</string>
+    <string name="power_menu_settings_title" msgid="">"Einstellungsverknüpfung"</string>
+    <string name="power_menu_lockdown_title" msgid="">"Gerät sperren"</string>
+    <string name="power_menu_bug_report_title" msgid="">"Fehlerbericht"</string>
+    <string name="power_menu_sound_title" msgid="">"Benachrichtigungsmodus"</string>
+    <string name="power_menu_bug_report_disabled" msgid="">"Fehlerbericht ist in den Entwickleroptionen deaktiviert."</string>
+    <string name="link_volume_option_title" msgid="">"Gleiche Lautstärke für Anrufe und Benachrichtigungen"</string>
+    <string name="notification_volume_option_title" msgid="">"Benachrichtigungslautstärke"</string>
+    <string name="ring_notification_volume_option_tile" msgid="">"Klingelton- und Benachrichtigungslautstärke"</string>
+    <string name="longpress_lock_icon_to_sleep_title" msgid="">"Long press lock icon to sleep"</string>
+    <string name="longpress_lock_icon_to_sleep_summary" msgid="">"This option will not work if both smart lock and accessibility touch exploration are enabled"</string>   
+    <string name="category_panel_time_out" msgid="">"Bildschirm Timeout"</string>
+    <string name="volume_panel_time_out_title" msgid="">"Lautstärkelpanel Timeout"</string>
+    <string name="volume_panel_time_out_summary" msgid="">"Nach <xliff:g id="number">%d</xliff:g> Sekunden ausblenden. Bei Berührung des Displays außerhalb des Panels automatisch ausblenden."</string>
+    <string name="volume_panel_time_out_1sec" msgid="">"1 Sekunde"</string>
+    <string name="volume_panel_time_out_3sec" msgid="">"3 Sekunden (Standard)"</string>
+    <string name="volume_panel_time_out_5sec" msgid="">"5 Sekunden"</string>
+    <string name="volume_panel_time_out_8sec" msgid="">"8 Sekunden"</string>
+    <string name="volume_panel_time_out_12sec" msgid="">"12 Sekunden"</string>
+    <string name="volume_panel_time_out_15sec" msgid="">"15 Sekunden"</string>
+    <string name="recents_show_searchbar" msgid="">"Suchleiste in "Zuletzt geöffnete Anwendungen" deaktivieren"</string>
+    <string name="recents_show_searchbar_summary" msgid="">"Deaktiviert die Suchleiste unter "Zuletzt geöffnete Anwendungen""</string>
+    <string name="bitsyko_layers" msgid="">"Layers"</string>
+    <string name="none_is_silent_title" msgid="">"Nichts ist lautloser Modus"</string>
+    <string name="none_is_silent_summary" msgid="">"Im lautlosen Modus wird immer der Weckton hörbar sein"</string>
+    <string name="allow_lights_title" msgid="">"Benachrichtigungs-LED im zen mode aktiv"</string>
+    <string name="category_heads_up" msgid="">"Heads up Benachrichtigungen"</string>
+    <string name="summary_heads_up_enabled" msgid="">"Pop-up Benachrichtigungen sind aktiviert"</string>
+    <string name="summary_heads_up_disabled" msgid="">"Pop-up Benachrichtigungen sind deaktiviert"</string>
+    <string name="add_heads_up_package" msgid="">"Anwendung hinzufügen"</string>
+    <string name="add_heads_up_dnd_summary" msgid="">"Keine Heads up Benachrichtigungen in diesen Anwendungen anzeigen"</string>
+    <string name="add_heads_up_blacklist_summary" msgid="">"Keine Heads up Benachrichtigungen von dieser Anwendung anzeigen"</string>
+    <string name="heads_up_dnd_title" msgid="">"Nicht stören"</string>
+    <string name="heads_up_blacklist_title" msgid="">"Gesperrte Anwendungen"</string>
+    <string name="heads_up_disabled_notice" msgid="">"Um es Anwendungen zu ermöglichen interaktive Benachrichtigungen mittels eines Pop up Fensters anzuzeigen, musst Du Heads up aktivieren."</string>
+    <string name="heads_up_time_out_title" msgid="">Automatisch ausblenden</string>
+    <string name="heads_up_time_out_summary" msgid="">Benachrichtigungen werden für <xliff:g id="number">%d</xliff:g> Sekunden angezeigt</string>
+    <string name="heads_up_time_out_never_summary" msgid="">Benachrichtigung wird angezeigt, bis sie gelöscht wurde</string>
+    <string name="heads_up_time_out_1sec" msgid="">1 Sekunde</string>
+    <string name="heads_up_time_out_2sec" msgid="">2 Sekunden</string>
+    <string name="heads_up_time_out_4sec" msgid="">4 Sekunden</string>
+    <string name="heads_up_time_out_6sec" msgid="">6 Sekunden</string>
+    <string name="heads_up_time_out_8sec" msgid="">8 Sekunden</string>
+    <string name="heads_up_time_out_10sec" msgid="">10 Sekunden</string>
+    <string name="heads_up_time_out_never" msgid="">Niemals</string>
+    <string name="carrier_options" msgid="">Provider Anzeige</string>
+    <string name="show_status_bar_carrier_title" msgid="">Provider Anzeige in der Statusleiste</string>
+    <string name="show_status_bar_carrier_summary" msgid="">Der Provider wird in der Statusleiste angezeigt</string>
+    <string name="custom_carrier_label_title" msgid="">Angepasstes Provider Label</string>
+    <string name="custom_carrier_label_explain" msgid="">Gib ein angepasstes Label ein oder lösche das Feld, um das vorgegebene Label deines Providers zu nutzen.</string>
+    <string name="custom_carrier_label_notset" msgid="">Angepasstes Provider Label ist noch nicht eingerichtet</string>
+    <string name="status_bar_carrier_color" msgid="">Provider Label Farbe</string>
+    
+    
     
     
     <string name="lcd_density" msgid="">"LCD Pixeldichte"</string>
