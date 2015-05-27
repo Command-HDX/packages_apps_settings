@@ -2662,7 +2662,7 @@
     <string name="clock_date_format_custom" msgid="">"Benutzedefiniertes Java Format"</string>
     <string name="status_bar_clock_style_reset_message" msgid="">"Farbe der Uhr zurücksetzen?"</string>
     <string name="title_quick_pulldown" msgid="">"Schnelles öffnen der Schnelleinstellungen"</string>
-    <string name="summary_quick_pulldown" msgid="">"%1$s die Benachrichtigungsleiste herunterziehen öffnet die Schnelleinstellungen"</string>
+    <string name="summary_quick_pulldown" msgid="">"%1$s die Statusleiste herunterziehen öffnet die Schnelleinstellungen"</string>
     <string name="quick_pulldown_off" msgid="">"Aus"</string>
     <string name="quick_pulldown_left" msgid="">"Links"</string>
     <string name="quick_pulldown_right" msgid="">"Rechts"</string>
@@ -2810,7 +2810,7 @@
     <string name="lockscreen_choose_action_title" msgid="">"Aktion wählen"</string>
     <string name="power_menu_expanded_desktop" msgid="">"Erweiterter Desktop"</string>
     <string name="expanded_hide_nothing" msgid="">"Nichts ausblenden"</string>
-    <string name="expanded_hide_status" msgid="">"Benachrichtigungsleiste ausblenden"</string>
+    <string name="expanded_hide_status" msgid="">"Statusleiste ausblenden"</string>
     <string name="expanded_hide_navigation" msgid="">"Navigationsleiste ausblenden"</string>
     <string name="expanded_hide_both" msgid="">"Beide Leisten ausblenden"</string>
     <string name="expanded_nothing_to_show" msgid="">"Zum hinzufügen einer anwendungsspezifischen Konfiguration, muss \'Aktiviert für alle\' auf Aus stehen."</string>
@@ -2900,30 +2900,116 @@
     <string name="heads_up_dnd_title" msgid="">"Nicht stören"</string>
     <string name="heads_up_blacklist_title" msgid="">"Gesperrte Anwendungen"</string>
     <string name="heads_up_disabled_notice" msgid="">"Um es Anwendungen zu ermöglichen interaktive Benachrichtigungen mittels eines Pop up Fensters anzuzeigen, musst Du Heads up aktivieren."</string>
-    <string name="heads_up_time_out_title" msgid="">Automatisch ausblenden</string>
-    <string name="heads_up_time_out_summary" msgid="">Benachrichtigungen werden für <xliff:g id="number">%d</xliff:g> Sekunden angezeigt</string>
-    <string name="heads_up_time_out_never_summary" msgid="">Benachrichtigung wird angezeigt, bis sie gelöscht wurde</string>
-    <string name="heads_up_time_out_1sec" msgid="">1 Sekunde</string>
-    <string name="heads_up_time_out_2sec" msgid="">2 Sekunden</string>
-    <string name="heads_up_time_out_4sec" msgid="">4 Sekunden</string>
-    <string name="heads_up_time_out_6sec" msgid="">6 Sekunden</string>
-    <string name="heads_up_time_out_8sec" msgid="">8 Sekunden</string>
-    <string name="heads_up_time_out_10sec" msgid="">10 Sekunden</string>
-    <string name="heads_up_time_out_never" msgid="">Niemals</string>
-    <string name="carrier_options" msgid="">Provider Anzeige</string>
-    <string name="show_status_bar_carrier_title" msgid="">Provider Anzeige in der Statusleiste</string>
-    <string name="show_status_bar_carrier_summary" msgid="">Der Provider wird in der Statusleiste angezeigt</string>
-    <string name="custom_carrier_label_title" msgid="">Angepasstes Provider Label</string>
-    <string name="custom_carrier_label_explain" msgid="">Gib ein angepasstes Label ein oder lösche das Feld, um das vorgegebene Label deines Providers zu nutzen.</string>
-    <string name="custom_carrier_label_notset" msgid="">Angepasstes Provider Label ist noch nicht eingerichtet</string>
-    <string name="status_bar_carrier_color" msgid="">Provider Label Farbe</string>
-    
-    
-    
-    
+    <string name="heads_up_time_out_title" msgid="">"Automatisch ausblenden"</string>
+    <string name="heads_up_time_out_summary" msgid="">"Benachrichtigungen werden für <xliff:g id="number">%d</xliff:g> Sekunden angezeigt"</string>
+    <string name="heads_up_time_out_never_summary" msgid="">"Benachrichtigung wird angezeigt, bis sie quittiert"</string>
+    <string name="heads_up_time_out_1sec" msgid="">"1 Sekunde"</string>
+    <string name="heads_up_time_out_2sec" msgid="">"2 Sekunden"</string>
+    <string name="heads_up_time_out_4sec" msgid="">"4 Sekunden"</string>
+    <string name="heads_up_time_out_6sec" msgid="">"6 Sekunden"</string>
+    <string name="heads_up_time_out_8sec" msgid="">"8 Sekunden"</string>
+    <string name="heads_up_time_out_10sec" msgid="">"10 Sekunden"</string>
+    <string name="heads_up_time_out_never" msgid="">"Niemals"</string>
+    <string name="carrier_options" msgid="">"Provider Anzeige"</string>
+    <string name="show_status_bar_carrier_title" msgid="">"Provider Anzeige in der Statusleiste"</string>
+    <string name="show_status_bar_carrier_summary" msgid="">"Der Provider wird in der Statusleiste angezeigt"</string>
+    <string name="custom_carrier_label_title" msgid="">"Angepasstes Provider Label"</string>
+    <string name="custom_carrier_label_explain" msgid="">"Gib ein angepasstes Label ein oder lösche das Feld, um das vorgegebene Label deines Providers zu nutzen."</string>
+    <string name="custom_carrier_label_notset" msgid="">"Angepasstes Provider Label ist noch nicht eingerichtet"</string>
+    <string name="status_bar_carrier_color" msgid="">"Farbe des Provider Labels"</string>
+    <string name="storage_options_category" msgid="">"Benachrichtigungen"</string>
+    <string name="storage_menu_options" msgid="">"Erweitert"</string>
+    <string name="storage_title_options" msgid="">"Speicheroptionen"</string>
+    <string name="no_media_notification_title" msgid="">""Speicher entfernt" Benachrichtigung"</string>
+    <string name="no_media_notification_summary" msgid="">"Zeigt eine Benachrichtigung an, wenn der externe Speicher entfernt wurde."</string>
+    <string name="mount_notification_title" msgid="">"Benachrichtigung beim anschließen"</string>
+    <string name="mount_notification_summary" msgid="">"Zeigt eine dauerhafte Benachrichtigung an, solange ein externer Speicher angeschlossen ist."</string>
+    <string name="swap_volume_buttons_title" msgid="">"Funktion tauschen"</string>
+    <string name="swap_volume_buttons_summary" msgid="">"Tauscht die Funktion der Lautstärketasten, wenn das Gerät gedreht wird"</string>
+    <string name="notifications_category_title" msgid="">"Benachrichtigungen"</string>
+    <string name="less_notification_sounds_title" msgid="">"Weniger häufige akustische Benachrichtigungen"</string>
+    <string name="less_notification_sounds_summary" msgid="">"Begrenzt die akustischen Benachrichtigungen jeder Anwendung auf ein einziges mal für die gesetzte Zeitdauer."</string>
+    <string name="less_notification_sounds_default" msgid="">"Standardmäßiges Verhalten"</string>
+    <string name="less_notification_sounds_3s" msgid="">"3 Sekunden"</string>
+    <string name="less_notification_sounds_5s" msgid="">"5 Sekunden"</string>
+    <string name="less_notification_sounds_10s" msgid="">"10 Sekunden"</string>
+    <string name="less_notification_sounds_15s" msgid="">"15 Sekunden"</string>
+    <string name="less_notification_sounds_30s" msgid="">"30 Sekunden"</string>
+    <string name="less_notification_sounds_45s" msgid="">"45 Sekunden"</string>
+    <string name="less_notification_sounds_1m" msgid="">"1 Minute"</string>
+    <string name="less_notification_sounds_2m" msgid="">"2 Minuten"</string>
+    <string name="less_notification_sounds_5m" msgid="">"5 Minuten"</string>
+    <string name="less_notification_sounds_15m" msgid="">"15 Minuten"</string>
+    <string name="less_notification_sounds_30m" msgid="">"30 Minuten"</string>
+    <string name="wakelock_blocker_title" msgid="">"Wakelock Blocker"</string>
+    <string name="wakelock_blocker_summary" msgid="">"Verhindert System Wakelocks"</string>
+    <string name="wakelock_blocker_save" msgid="">"Speichern"</string>
+    <string name="wakelock_list_header" msgid="">"Verfügbare Wakelocks"</string>
+    <string name="wakelock_blocker_reload" msgid="">"Aktualisieren"</string>
+    <string name="wakelock_blocker_warning_title" msgid="">"Nutze dies Vorsicht"</string>
+    <string name="wakelock_blocker_warning" msgid="">"Das unterbinden von System Wakelocks kann zu Instabilitäten, Abstürzen oder Datenverlust führen!"</string>
+    <string name="screenshot_sound_title">Bildschirmfoto Ton</string>
     <string name="lcd_density" msgid="">"LCD Pixeldichte"</string>
     <string name="lcd_density_summary" msgid="">%d DPI</string>
     <string name="lcd_density_default" msgid="">"Gerätestandard"</string>
     <string name="lcd_density_unsupported" msgid="">"Nicht unterstützt"</string>
     <string name="restarting_ui" msgid="">"Neustart...</string>
+    <string name="shortcut_action_none" msgid="">"Nichts"</string>
+    <string name="shortcut_action_app" msgid="">"Eigene Anwendung"</string>
+    <string name="shortcut_action_home" msgid="">"Home"</string>
+    <string name="shortcut_action_back" msgid="">"Zurück"</string>
+    <string name="shortcut_action_menu" msgid="">"Menü"</string>
+    <string name="shortcut_action_ime" msgid="">"IME Switcher öffnen"</string>
+    <string name="shortcut_action_power_menu" msgid="">"Power Menü"</string>
+    <string name="shortcut_action_recent" msgid="">"zuletzt geöffnete Anwendungen"</string>
+    <string name="shortcut_action_power" msgid="">"Bildschirm aus"</string>
+    <string name="shortcut_action_search" msgid="">"In Anwendung suchen"</string>
+    <string name="shortcut_action_ring_vib" msgid="">"Ton/Vib"</string>
+    <string name="shortcut_action_ring_silent" msgid="">"Ton/Lautlos"</string>
+    <string name="shortcut_action_ring_vib_silent" msgid="">"Ton/Vib/Lautlos"</string>
+    <string name="shortcut_action_camera" msgid="">"Kamera"</string>
+    <string name="shortcut_action_media_next" msgid="">"Musik - nächster Titel"</string>
+    <string name="shortcut_action_media_play_pause" msgid="">"Musik - Play/Pause"</string>
+    <string name="shortcut_action_media_previous" msgid="">"Musik - vorheriger Titel"</string>
+    <string name="shortcut_action_wake_device" msgid="">"Gerät aufwecken"</string>
+    <string name="shortcut_action_kill" msgid="">"Anwendung beenden"</string>
+    <string name="shortcut_action_screenshot" msgid="">"Bildschirmfoto"</string>
+    <string name="shortcut_action_lastapp" msgid="">"Letzte Anwendung"</string>
+    <string name="shortcut_action_notifications" msgid="">"Benachrichtigungen"</string>
+    <string name="shortcut_action_qs" msgid="">"Schnelleinstellungs Panel"</string>
+    <string name="shortcut_action_torch" msgid="">"Taschenlampe"</string>
+    <string name="shortcut_action_ring_vib" msgid="">"Ton/Vib"</string>
+    <string name="shortcut_action_ring_silent" msgid="">"Ton/Lautlos"</string>
+    <string name="shortcut_action_ring_vib_silent" msgid="">"Ton/Vib/Lautlos"</string>
+    <string name="shortcut_action_longpress" msgid="">"Langes drücken:"</string>
+    <string name="shortcut_action_select_action_longpress" msgid="">"Wähle, was beim langen drücken passieren soll:"</string>
+    <string name="shortcut_action_select_action" msgid="">"Aktion auswählen:"</string>
+    <string name="shortcut_action_select_action_newaction" msgid="">"Neue Aktion wählen:"</string>
+    <string name="shortcut_action_reset" msgid="">"Zurücksetzen"</string>
+    <string name="shortcut_action_add" msgid="">"Hinzufügen"</string>
+    <string name="shortcut_action_reset_message" msgid="">"Alle Einträge auf Standard zurücksetzen?"</string>
+    <string name="shortcut_action_max" msgid="">"Die maximale Anzahl an Einträgen wurde erreicht."</string>
+    <string name="shortcut_action_warning" msgid="">"Warnung"</string>
+    <string name="shortcut_action_warning_message" msgid="">"Es ist nicht möglich den letzten Eintrag zu entfernen"</string>
+    <string name="shortcut_action_required_warning_message" msgid="">"Es ist nicht möglich die erforderliche Taste zu löschen"</string>
+    <string name="shortcut_action_disable_message" msgid="">"Deaktiviert:\nErstelle einen Eintrag, um das Feature zu aktivieren."</string>
+    <string name="shortcut_image_not_valid" msgid="">"Die ausgewählte Anwendung enthält kein gültiges Symbol oder unterstützt "Image cropping" nicht. Nutze eine andere Anwendung."</string>
+    <string name="shortcut_duplicate_entry" msgid="">"Die gewählte Aktion kann nicht zweimal hinzugefügt werden"</string>
+    <string name="shortcut_action_help_shortcut" msgid="">"Verknüpfung"</string>
+    <string name="shortcut_action_help_button" msgid="">"Schaltfläche"</string>
+    <string name="shortcut_action_help_app" msgid="">"Anwendung"</string>
+    <string name="shortcut_action_help_icon" msgid="">", beim auswählen des Symbols ermöglicht erweiterte Einstellungen"</string>
+    <string name="shortcut_action_help_main" msgid="">"Zum hinzufügen einer %1$s, benutze die hinzufügen Schaltfläche. Sobald eine %1$s hinzugefügt wird, kann durch die Auswahl der Zeile das Ziel %2$s geändert werden.\n\nZum löschen einer %1$s, wische die Zeile nach links oder rechts weg. Zum sortieren der %1$s halte den Eintrag an der linken Seite fest und ziehe ihn nach oben oder unten.\n\nZum löschen oder um auf den Ursprungszustand zurückzukehren, wähle die "Zurücksetzen" Option in den Einstellungen."</string>
+    <string name="shortcut_action_help_delete_last_entry" msgid="">"Das löschen jeder %1$s aus der Liste wird das Feature sofort deaktivieren".</string>
+    <string name="shortcut_action_help_pie_second_layer_delete_last_entry" msgid="">"Das löschen jeder %1$s aus der Liste wird den zweiten PIE Layer sofort deaktivieren".</string>
+    <string name="icon_color_mode_all_icons" msgid="">"Alle Symbole"</string>
+    <string name="icon_color_mode_system_icons" msgid="">"System Symbole"</string>
+    <string name="icon_color_mode_system_custom_icons" msgid="">"System und eigene Symbole"</string>
+    <string name="shortcuts_applications" msgid="">"Anwendungen"</string>
+    <string name="shortcuts_select_custom_app_title" msgid="">"Auswahl einer eigenen Anwendung"</string>
+    <string name="shortcuts_icon_picker_type" msgid="">"Auswahl des Symboltyps:"</string>
+    <string name="shortcuts_icon_default" msgid="">"Standard"</string>
+    <string name="shortcuts_icon_presets" msgid="">"System Symbol"</string>
+    <string name="shortcuts_icon_custom" msgid="">"Gallerie"</string>
+    <string name="shortcuts_icon_picker_choose_icon_title" msgid="">"Symbol wählen"</string>
 </resources>
