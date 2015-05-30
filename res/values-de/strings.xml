@@ -2583,9 +2583,9 @@
     <string name="recents_clear_all_location_bottom_left" msgid="">"Unten links"</string>
     <string name="ui_customization_title" msgid="">"UI Anpassung"</string>
     <string name="animation_scale_settings" msgid="">"Einstellungen für Animationsgeschwindigkeit"</string>
-    <string name="window_animation_scale_title" msgid="">"Geschwindigkeit Fensteranimation"</string>
-    <string name="transition_animation_scale_title" msgid="">"Geschwindigkeit Übergangsanimation"</string>
-    <string name="animator_duration_scale_title" msgid="">"Geschwindigkeit der Animationszeit"</string>
+    <string name="window_animation_scale_title" msgid="">"Maßstab der Fensteranimation"</string>
+    <string name="transition_animation_scale_title" msgid="">"Maßstab der Übergangsanimation"</string>
+    <string name="animator_duration_scale_title" msgid="">"Maßstab der Animationszeit"</string>
     <string name="dialog_color_picker" msgid="">"Farbwahl"</string>
     <string name="press_color_to_apply" msgid="">"Drücke auf die Farbe unten zum übernehmen"</string>
     <string name="set" msgid="">"Übernehmen"</string>
